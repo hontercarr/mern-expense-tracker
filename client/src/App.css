@@ -1,0 +1,47 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+body {
+    background-color: #292b2c;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li .row:hover {
+    text-decoration: line-through;
+    opacity: 50%;
+}
+
+.minus {
+    border-right: 5px solid #c0392b;
+}
+
+.plus {
+    border-right: 5px solid #2ecc71;
+}
+
+.balance-success {
+    color: #2ecc71;
+}
+
+.balance-danger {
+    color: #c0392b;
+}
+
+.card {
+    background-color: #f0efef;
+}
+
+.bg-white-ish {
+    background-color: #f0efef;
+}
