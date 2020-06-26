@@ -1,4 +1,4 @@
-# mern-expense-tracker
+# MERN Expense Tracker
 Expense Tracker built with the MERN stack.
 
 Run:
