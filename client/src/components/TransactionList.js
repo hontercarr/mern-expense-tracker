@@ -9,7 +9,6 @@ const TransactionList = () => {
         getTransactions();
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
-    console.log(transactions);
     return (
         <>
             <div className="text-light mt-3">
